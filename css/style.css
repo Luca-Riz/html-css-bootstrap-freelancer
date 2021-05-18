@@ -1,3 +1,20 @@
-* {
-    background-color: black;
+.container-fluid {
+    background-color: burlywood;
 }
+
+.container {
+    background-color: crimson;
+}
+
+.row {
+    background-color: blue;
+}
+
+
+
+[class*="col-"] {
+    background-color: brown;
+    height: 5rem;
+    border: 1px solid black;
+    /* margin: 2rem; */
+} 
