@@ -6,6 +6,10 @@
     background-color: #1abc9c;
 }
 
+/* main */
+
+
+
 
 
 
@@ -19,6 +23,7 @@
 
 .container {
     background-color: crimson;
+    border: 1px solid blue;
 }
 
 /* .row {
@@ -27,7 +32,7 @@
 
 
 
-[class*="col-"] {
+[class*="col"] {
     background-color: brown;
     height: 5rem;
     border: 1px solid black;
