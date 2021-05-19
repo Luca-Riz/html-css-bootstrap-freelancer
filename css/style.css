@@ -6,12 +6,19 @@
     background-color: #1abc9c;
 }
 
+._jumbotron img.avatar {
+    width: 15%;
+}
+
 
 
 ._btn-green {
     background-color: #1abc9c;
     color:white;
 }
+
+
+
 
 
 ._location {
