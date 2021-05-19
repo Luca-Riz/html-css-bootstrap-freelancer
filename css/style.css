@@ -1,7 +1,25 @@
 /* common */
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 ._all-width {
     width: 100%;
+}
+
+._line-w {
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+._line-b {
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
 }
 
 /* end common */
@@ -18,23 +36,11 @@
     width: 15%;
 }
 
-._mt-72 {
-    margin-top: 72px;
+._mt-71 {
+    margin-top: 71px;
 }
 
-._line-w {
-    width: 100px;
-    height: 3px;
-    background-color: white;
-    border-radius: 2px;
-}
 
-._line-b {
-    width: 100px;
-    height: 3px;
-    background-color: black;
-    border-radius: 2px;
-}
 
 ._btn-green {
     background-color: #1abc9c;
@@ -55,6 +61,22 @@
 
 ._location {
     background-color: #3a546d;
+}
+
+._circle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+._circle i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 footer {
