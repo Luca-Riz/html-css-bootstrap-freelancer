@@ -40,24 +40,47 @@ body {
     margin-top: 71px;
 }
 
+._img-plus {
+    position: relative;
+}
 
+._img-plus:hover ._plus {
+    display: block;
+}
 
-._btn-green {
-    background-color: #1abc9c;
-    color:white;
+._plus{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0, 0.5);
+}
+
+._plus i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: white;
 }
 
 ._btn-trasparent {
     color: #fff;
     border-color: #fff;
-  }
+}
 
-  ._green {
+._green {
     color: #1abc9c;      
-  }
+}
 
-
-
+._btn-green {
+    background-color: #1abc9c;
+    color:white;
+}
 
 ._location {
     background-color: #3a546d;
