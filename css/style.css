@@ -17,8 +17,9 @@ footer {
 }
 
 
-
-
+._btn-green {
+    background-color: #1abc9c;
+}
 
 
 
@@ -40,8 +41,17 @@ footer {
 
 
 [class*="col"] {
-    background-color: brown;
-    height: 5rem;
-    border: 1px solid black;
+    /* background-color: brown; */
+    /* height: 5rem; */
+    /* border: 1px solid black; */
     /* margin: 2rem; */
 } 
+
+
+/* debug */
+
+.box {
+    width: 100%;
+    height: 50px;
+    background-color: chartreuse;
+}

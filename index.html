@@ -13,27 +13,37 @@
 <body>
 
     <!-- inizio nav - container largo 100vw -->
-    <div class="_nav container-fluid">
+    <header class="_nav container-fluid">
 
       <!-- container nav -  max width breakpoint -->
       <div class="container">
 
-        <div class="row justify-content-between align-items-center">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Contacts</a>
+                </li>
 
-          <div class="col-4  col-md-3 d-flex justify-content-center align-items-center">
-            Start bootstrap
+              </ul>
+            </div>
           </div>
+        </nav>
 
-          <div class=".d-sm-none .d-md-block col-auto d-flex justify-content-end align-items-center">
-            <div class="mx-2">Portfolio</div>
-            <div class="mx-2">About</div>
-            <div class="mx-2">Contacts</div>
-          </div>
-
-        </div>
       </div>
       <!-- fine container nav - max width breakpoint -->
-    </div>
+    </header>
     <!-- fine nav - container largo 100vw -->
 
     
@@ -45,8 +55,10 @@
 
         <div class="row justify-content-center">
 
-          <div class="col-12 col-sm-8 col-md-5 d-flex justify-content-center align-items-center">
-            Start bootstrap
+          <div class="col-12 text-center">
+            <h1>Start Bootstrap</h1>
+            <div class="stella"></div>
+            <p>Graphic atrist - Web designer - Illustrator</p>
           </div>
 
         </div>
@@ -63,46 +75,46 @@
       <main class="container">
 
         <div class="row justify-content-center">
-          <div class="col-5 d-flex justify-content-center align-items-center">
-            stella
+          <div class="col text-center">
+            <div class="box">stella</div>
           </div>
         </div>
 
-        <div class="row">
+        <div class="row g-4">
 
           <!-- inizio img 1 -->
-          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
-            img1
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="box">img1</div>
           </div>
           <!-- fine img 1 -->
           
           <!-- inizio img 2 -->
-          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
-            img2
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="box">img2</div>
           </div>
           <!-- fine img 2 -->
           
           <!-- inizio img 3 -->
-          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
-            img3
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="box">img3</div>
           </div>
           <!-- fine img 3 -->
           
           <!-- inizio img 4 -->
-          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
-            img4
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="box">img4</div>
           </div>
           <!-- fine img 4 -->
           
           <!-- inizio img 5 -->
-          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
-            img5
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="box">img5</div>
           </div>
           <!-- fine img 5 -->
           
           <!-- inizio img 6 -->
-          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
-            img6
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="box">img6</div>
           </div>
           <!-- fine img 6 -->
 
@@ -121,24 +133,24 @@
 
         <!-- about e stella -->
         <div class="row justify-content-center">
-          <div class="col-5 d-flex justify-content-center align-items-center">
-            about e stella
+          <div class="col-auto d-flex justify-content-center align-items-center">
+              <div class="box">about e stella</div> 
           </div>
         </div>
         <!-- fine about e stella -->
 
         <!-- inizio contenuto about -->
-        <div class="row justify-content-center">
+        <div class="row">
           
           <!-- inizio about 1 -->
-          <div class="col-10 col-sm-5 d-flex justify-content-center align-items-center">
-            about1
+          <div class="col-10 offset-1 col-md-5">
+            <div class="box">about1</div> 
           </div>
           <!-- fine about 1 -->
           
           <!-- inizio about 2 -->
-          <div class="col-10 col-sm-5 d-flex justify-content-center align-items-center">
-            about2
+          <div class="col-10 offset-1 col-md-5 offset-md-0">
+            <div class="box">about2</div> 
           </div>
           <!-- fine about 2 -->
           
@@ -148,7 +160,7 @@
         <!-- download -->
         <div class="row justify-content-center">
           <div class="col-auto d-flex justify-content-center align-items-center">
-            download
+            <div class="box">download</div> 
           </div>
         </div>
         <!-- fine download -->     
@@ -168,16 +180,16 @@
 
         <!-- contact e stella -->
         <div class="row justify-content-center">
-          <div class="col-5 d-flex justify-content-center align-items-center">
-            contact e stella
+          <div class="col-auto d-flex justify-content-center align-items-center">
+            <div class="box">contact e stella</div> 
           </div>
         </div>
         <!-- fine contact e stella -->
 
         <!-- inizio form contact -->
-        <div class="row d-flex justify-content-center align-items-center">
-          <div class="col-10">
-            form
+        <div class="row">
+          <div class="col-12 offset-md-1 col-md-10">
+            <div class="box">form</div> 
           </div>
         </div>
         <!-- fine form contact -->
@@ -198,19 +210,19 @@
         <div class="row">
 
           <!-- inizio col location 1 -->
-          <div class="col-12 col-sm-4 d-flex justify-content-center align-items-center">
+          <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
             col location 1
           </div>
           <!-- fine col location 1 -->
           
           <!-- inizio col location 2 -->
-          <div class="col-12 col-sm-4 d-flex justify-content-center align-items-center">
+          <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
             col location 2
           </div>
           <!-- fine col location 2 -->
           
           <!-- inizio col location 3 -->
-          <div class="col-12 col-sm-4 d-flex justify-content-center align-items-center">
+          <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
             col location 3
           </div>
           <!-- fine col location 3 -->
