@@ -14,14 +14,14 @@
 </head>
 <body>
 
-    <!-- inizio nav - container largo 100vw -->
-    <header class="_nav _all-width">
+    <!-- inizio nav -->
+    <header class="_nav _all-width fixed-top">
 
       <!-- container nav -  max width breakpoint -->
       <div class="container">
 
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <div class="container-fluid">
+          <div class="container-fluid my-2">
             <a class="navbar-brand text-uppercase" href="#">Start bootstrap</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -46,18 +46,18 @@
       </div>
       <!-- fine container nav - max width breakpoint -->
     </header>
-    <!-- fine nav - container largo 100vw -->
+    <!-- fine nav -->
 
     
-    <!-- inizio jumbotron - container largo 100vw -->
-    <div class="_jumbotron _all-width">
+    <!-- inizio jumbotron -->
+    <div class="_jumbotron _all-width _mt-72">
 
       <!-- container jumbotron -  max width breakpoint -->
       <div class="container">
 
         <div class="row justify-content-center">
 
-          <div class="col-12 text-center text-uppercase text-white">
+          <div class="col-12 text-center text-uppercase text-white my-5">
             
             <img class="avatar" src="img/avatar.svg" alt="avatar">
             
@@ -70,10 +70,10 @@
       </div>
       <!-- fine container jumbotron - max width breakpoint -->
     </div>
-    <!-- fine jumbotron - container largo 100vw -->
+    <!-- fine jumbotron -->
 
     
-    <!-- inizio main - container largo 100vw -->
+    <!-- inizio main -->
     <div class="_main _all-width">
 
       <!-- container main -  max width breakpoint -->
@@ -81,7 +81,7 @@
 
         <!-- inizio main portfolio e stella -->
         <div class="row justify-content-center">
-          <div class="col text-center">
+          <div class="col text-center mt-5">
             <h2 class="text-uppercase">Portfolio</h2>
             <div class="stella">-------- &#9733; --------</div>
           </div>
@@ -110,19 +110,19 @@
           
           <!-- inizio img 4 -->
           <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
-            <img src="img/game.png" alt="game" class="img-fluid rounded">
+            <img src="img/game.png" alt="game" class="img-fluid rounded mb-lg-5">
           </div>
           <!-- fine img 4 -->
           
           <!-- inizio img 5 -->
           <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
-            <img src="img/safe.png" alt="safe" class="img-fluid rounded">
+            <img src="img/safe.png" alt="safe" class="img-fluid rounded mb-md-5">
           </div>
           <!-- fine img 5 -->
           
           <!-- inizio img 6 -->
           <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
-            <img src="img/submarine.png" alt="submarine" class="img-fluid rounded">
+            <img src="img/submarine.png" alt="submarine" class="img-fluid rounded mb-5">
           </div>
           <!-- fine img 6 -->
 
@@ -130,10 +130,10 @@
       </main>
       <!-- fine container main - max width breakpoint -->
     </div>
-    <!-- fine main - container largo 100vw -->
+    <!-- fine main -->
 
 
-    <!-- inizio about - container largo 100vw -->
+    <!-- inizio about -->
     <div class="_about _all-width">
 
       <!-- container about -  max width breakpoint -->
@@ -141,7 +141,7 @@
 
         <!-- about e stella -->
         <div class="row justify-content-center">
-          <div class="col-auto d-flex justify-content-center align-items-center">
+          <div class="col-auto d-flex justify-content-center align-items-center mt-5">
               <div class="text-center text-white">
                 <h2 class="uppercase">About</h2>
                 <div class="stella">-------- &#9733; --------</div>
@@ -174,7 +174,7 @@
 
         <!-- download -->
         <div class="row justify-content-center">
-          <div class="col-auto d-flex justify-content-center align-items-center">
+          <div class="col-auto d-flex justify-content-center align-items-center mt-3 mb-5">
             <button type="button" class="btn _btn-trasparent">
               <i class="fas fa-download"></i> Download
               </button> 
@@ -186,10 +186,10 @@
       <!-- fine container about - max width breakpoint -->
       
     </div>
-    <!-- fine about - container largo 100vw -->
+    <!-- fine about -->
 
 
-    <!-- inizio contact - container largo 100vw -->
+    <!-- inizio contact -->
     <div class="_contact _all-width">
 
       <!-- container contact -  max width breakpoint -->
@@ -198,7 +198,7 @@
         <!-- contact e stella -->
         <div class="row justify-content-center">
           <div class="col-auto d-flex justify-content-center align-items-center">
-            <div class="text-center">
+            <div class="text-center mt-5">
               <h2>Contact me</h2>
               <div class="stella">-------- &#9733; --------</div>
             </div> 
@@ -210,7 +210,7 @@
         <div class="row">
           <div class="col-12 offset-md-1 col-md-10">
             
-            <form>
+            <form class="mb-5">
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Name</label>
                 <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -254,16 +254,18 @@
         <div class="row">
 
           <!-- inizio col location 1 -->
-          <div class="col-12 col-md-4 text-center text-white ">
-            <h4 class="text-uppercase">Location</h4>
-            <div>2215 ohn Daniel Clark, MO</div>
-            <div>54243</div>
+          <div class="col-12 col-md-4 text-center text-white">
+            <div class="mt-5 mb-md-5">
+              <h4 class="text-uppercase">Location</h4>
+              <div>2215 ohn Daniel Clark, MO</div>
+              <div>54243</div>
+            </div>
           </div>
           <!-- fine col location 1 -->
           
           <!-- inizio col location 2 - around-->
           <div class="_around col-12 col-md-4 text-white d-flex justify-content-center align-items-center">
-            <div>
+            <div class="my-5">
               <h4 class="text-uppercase">Around the web</h4>
               <div class="d-flex justify-content-center">
 
@@ -279,7 +281,7 @@
           
           <!-- inizio col location 3 -->
           <div class="col-12 col-md-4 text-white d-flex justify-content-center align-items-center">
-            <div class="text-center">
+            <div class="text-center mb-5 mt-md-5">
               <h4 class="text-uppercase">About freelancer</h4>
               <p>
                 Freelance is a free to use, open source Bootstrap theme created by <span class="_green">Start Bootstrap</span>.
